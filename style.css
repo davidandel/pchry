@@ -1,0 +1,178 @@
+/* Stylizace celé stránky */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Stylizace nadpisů */
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Zvýraznění navigačního menu */
+.navbar {
+    background-color: #333;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+
+/* Přizpůsobení oddílů her */
+section {
+    padding: 50px 0;
+}
+
+/* Změna barvy pozadí u sudých oddílů */
+section:nth-child(even) {
+    background-color: #afafaf;
+}
+
+
+section h2 {
+    margin-bottom: 30px;
+}
+
+/* Změna barvy pozadí u lichých oddílů */
+section:nth-child(odd) {
+    background-color: #f8f8f8;
+}
+
+/* Stylizace textu v oddílech */
+section p {
+    line-height: 1.6;
+}
+
+/* Stylizace zápatí */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Zvýraznění odkazů v navigačním menu */
+/* Zvýraznění odkazů v navigačním menu */
+.nav-link {
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
+    color: #fff !important;
+}
+
+
+/* Zvýraznění tlačítka navigačního menu po najetí myší */
+.navbar-toggler-icon:hover {
+    filter: brightness(90%);
+}
+/* Zarovnání navigačního menu */
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-brand {
+    margin-right: auto;
+}
+.game-image {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+img{
+    aspect-ratio: 2/3;
+    object-fit: cover;
+}
+body {
+    background-color: #f3f3f3;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 40px;
+}
+
+form {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    color: #555;
+}
+
+input[type="radio"] {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#results {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+#results h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#results p {
+    margin-bottom: 10px;
+}
+.animated-background {
+    background: linear-gradient(to right, #000, #888, #fff);
+    background-size: 200% 100%;
+    animation: gradient-animation 5s ease-in-out infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.gallery-img {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.gallery-img {
+  display: inline-block;
+  margin-right: 10px;
+}
